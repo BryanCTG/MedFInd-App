@@ -1,17 +1,32 @@
-# flutter_application_1
+# MedFind App
 
-A new Flutter project.
+MedFind es una aplicación móvil desarrollada en Flutter que permite a los usuarios analizar recetas médicas, recibir recomendaciones de medicamentos y gestionar su compra de forma rápida y sencilla.
 
-## Getting Started
+## 📱 Funcionalidades implementadas
 
-This project is a starting point for a Flutter application.
+- Registro de usuario (simulado)
+- Visualización de interfaz principal
+- Conexión a Webhook mediante HTTP
+- Recepción de datos en formato JSON desde n8n
+- Visualización de medicamentos recomendados
 
-A few resources to get you started if this is your first Flutter project:
+## ⚙️ Tecnologías utilizadas
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter (Frontend móvil)
+- n8n (Automatización y backend)
+- HTTP (consumo de API)
+- JSON (intercambio de datos)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔄 Flujo de la aplicación
+
+1. El usuario interactúa con la app
+2. Flutter envía una petición HTTP a n8n
+3. n8n procesa la información (simulación de IA)
+4. n8n retorna un JSON con medicamentos
+5. Flutter muestra los datos en pantalla
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/TU-USUARIO/medfind-app.git
